@@ -33,7 +33,7 @@
  javac -classpath . example/*.java -d ../../../out
 
 Перейти в директорию out/ и объединить классы в исполняемый jar-файл:
-jar cvfe server.jar App *.class */*.class
+jar cvfe server.jar Main *.class */*.class
 
 Проверить работоспособность jar-файла:
 java -jar server.jar
